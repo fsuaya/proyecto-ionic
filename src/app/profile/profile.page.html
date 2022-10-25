@@ -1,0 +1,106 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-searchbar show-cancel-button="focus" placeholder="Show on Focus"></ion-searchbar>
+
+
+<ion-grid>
+  <ion-row class="ion-justify-content-center">
+    <ion-col> 
+    <ion-button [routerLink]="['/Trabajo']">
+      <ion-icon name="briefcase-outline" ></ion-icon>
+      <h6>Trabajo</h6>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button [routerLink]="['/Deportes']">
+        <ion-icon name="american-football-outline"></ion-icon>
+        <h6>Deportes</h6>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row class="ion-justify-content-center">
+    <ion-col>
+      <ion-button [routerLink]="['/Salud']">
+        <ion-icon name="medkit-outline"></ion-icon>
+        <h6>Salud</h6>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button [routerLink]="['/Transporte']">
+        <ion-icon name="bus-outline"></ion-icon>
+        <h6>Transporte</h6>
+      </ion-button>    
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-grid>
+  <ion-row class="ion-justify-content-center">
+    <ion-col>
+      <ion-button [routerLink]="['/Educacion']">
+        <ion-icon name="library-outline"></ion-icon>
+        <h6>Educacion</h6>
+      </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button [routerLink]="['/Cultura']">
+        <ion-icon name="earth-outline"></ion-icon>
+        <h6>Cultura</h6>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+
+<!--
+<ion-content>
+  <ion-card>
+
+  <ion-button shape="round" [routerLink]="['/Trabajo']" wi>
+    <ion-icon name="briefcase-outline" ></ion-icon>
+    Trabajo
+  </ion-button>
+
+  <ion-button shape="round" [routerLink]="['/Deportes']">
+    <ion-icon name="american-football-outline"></ion-icon>
+    Deportes
+  </ion-button>
+  
+
+</ion-card>
+
+    <ion-card>
+  <ion-button shape="round" [routerLink]="['/Salud']">
+    <ion-icon name="medkit-outline"></ion-icon>
+    Salud
+  </ion-button>
+
+  <ion-button shape="round" [routerLink]="['/Transporte']">
+    <ion-icon name="bus-outline"></ion-icon>
+    Transporte
+  </ion-button>
+
+</ion-card>
+
+<ion-card>
+  <ion-button shape="round" [routerLink]="['/Educacion']">
+    <ion-icon name="library-outline"></ion-icon>
+    Educacion
+  </ion-button>
+
+  <ion-button shape="round" [routerLink]="['/Cultura']">
+    <ion-icon name="earth-outline"></ion-icon>
+    Cultura
+  </ion-button>
+</ion-card> 
+
+</ion-content>
+-->

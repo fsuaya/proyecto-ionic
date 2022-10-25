@@ -1,0 +1,27 @@
+ion-grid {
+    margin: 0%;
+}
+
+
+ion-button {
+    --background: #ffffff;
+    --background-hover: #ffffff;
+    --background-activated: #ffffff;
+    --background-focused: #ffffff;
+  
+    --color: rgb(0, 0, 0);
+
+
+    width: 170px;
+    height: 150px;
+    font-size:medium;
+    box-shadow: 4px 4px 10px 4px rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+
+ion-icon {
+    width: 20px;
+    height: 20px;
+    
+}

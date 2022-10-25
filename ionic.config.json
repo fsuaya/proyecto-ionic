@@ -1,0 +1,7 @@
+{
+  "name": "ionic-tabs-navigation",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
