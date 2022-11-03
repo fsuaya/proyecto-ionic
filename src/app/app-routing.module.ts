@@ -1,10 +1,23 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { IngresadoGuard } from './ingresado.guard';
+import { NoIngresadoGuard } from './no-ingresado.guard';
 
 const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tablinks/tablinks.module').then( m => m.TablinksPageModule)
+  }, 
+   {
+    path: '',
+    redirectTo: 'login',
+    pathMatch: 'full',
+  }, 
+  {
+    path: 'profile',
+    loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule),
+    canActivate: [IngresadoGuard]
+
   },
   {
     path: 'Trabajo',
@@ -29,6 +42,18 @@ const routes: Routes = [
   {
     path: 'Educacion',
     loadChildren: () => import('./public/pages/educacion/educacion.module').then( m => m.EducacionPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule),
+    canActivate: [NoIngresadoGuard]
+
+  },
+  {
+    path: 'registro',
+    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule),
+    canActivate: [NoIngresadoGuard]
+
   },
 
 ];

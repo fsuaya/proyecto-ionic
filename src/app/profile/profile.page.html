@@ -1,66 +1,78 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Profile</ion-title>
+    <ion-title>Menu</ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-searchbar show-cancel-button="focus" placeholder="Show on Focus"></ion-searchbar>
-
 
 <ion-grid>
   <ion-row class="ion-justify-content-center">
     <ion-col> 
-    <ion-button [routerLink]="['/Trabajo']">
-      <ion-icon name="briefcase-outline" ></ion-icon>
-      <h6>Trabajo</h6>
-      </ion-button>
-    </ion-col>
+    <ion-card [routerLink]="['/Trabajo']">
+      <img alt="Trabajo" src="./../../assets/fotos/salud.png" />
+        <ion-card-header>
+          <ion-card-title>Trabajo</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </ion-col>   
+
     <ion-col>
-      <ion-button [routerLink]="['/Deportes']">
-        <ion-icon name="american-football-outline"></ion-icon>
-        <h6>Deportes</h6>
-      </ion-button>
+      <ion-card [routerLink]="['/Deportes']">
+        <img alt="Deportes" src="./../../assets/fotos/salud.png">
+        <ion-card-header>
+          <ion-card-title>Deportes</ion-card-title>
+        </ion-card-header>
+      </ion-card>
     </ion-col>
   </ion-row>
 </ion-grid>
-
 <ion-grid>
   <ion-row class="ion-justify-content-center">
     <ion-col>
-      <ion-button [routerLink]="['/Salud']">
-        <ion-icon name="medkit-outline"></ion-icon>
-        <h6>Salud</h6>
-      </ion-button>
+      <ion-card [routerLink]="['/Salud']"> 
+        <img alt="Salud" src="./../../assets/fotos/salud.png" />
+        <ion-card-header>
+          <ion-card-title>Salud</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+      
     </ion-col>
     <ion-col>
-      <ion-button [routerLink]="['/Transporte']">
-        <ion-icon name="bus-outline"></ion-icon>
-        <h6>Transporte</h6>
-      </ion-button>    
+      <ion-card [routerLink]="['/Transporte']">
+        <img alt="Transporte" src="./../../assets/fotos/salud.png" />
+        <ion-card-header>
+          <ion-card-title>Transporte</ion-card-title>
+        </ion-card-header>
+      </ion-card>    
     </ion-col>
   </ion-row>
 </ion-grid>
-
 <ion-grid>
   <ion-row class="ion-justify-content-center">
     <ion-col>
-      <ion-button [routerLink]="['/Educacion']">
-        <ion-icon name="library-outline"></ion-icon>
-        <h6>Educacion</h6>
-      </ion-button>
+      <ion-card [routerLink]="['/Educacion']">
+        <img alt="Educacion" src="./../../assets/fotos/salud.png" />
+        <ion-card-header>
+          <ion-card-title>Educacion</ion-card-title>
+        </ion-card-header>
+      </ion-card>
     </ion-col>
     <ion-col>
-      <ion-button [routerLink]="['/Cultura']">
-        <ion-icon name="earth-outline"></ion-icon>
-        <h6>Cultura</h6>
-      </ion-button>
+      <ion-card [routerLink]="['/Cultura']">
+        <img alt="Cultura" src="./../../assets/fotos/salud.png" />
+        <ion-card-header>
+          <ion-card-title>Cultura</ion-card-title>
+        </ion-card-header>
+      </ion-card>
     </ion-col>
   </ion-row>
 </ion-grid>
 
 
 
-<!--
+ 
+  
+  
+  <!--
 <ion-content>
   <ion-card>
 
