@@ -4,15 +4,15 @@ import { IngresadoGuard } from './ingresado.guard';
 import { NoIngresadoGuard } from './no-ingresado.guard';
 
 const routes: Routes = [
-  {
-    path: '',
-    loadChildren: () => import('./tablinks/tablinks.module').then( m => m.TablinksPageModule)
-  }, 
-   {
+  /*{
     path: '',
     redirectTo: 'login',
     pathMatch: 'full',
-  }, 
+  }, */
+  {
+    path: '',
+    loadChildren: () => import('./tablinks/tablinks.module').then( m => m.TablinksPageModule)
+  },
   {
     path: 'profile',
     loadChildren: () => import('./profile/profile.module').then( m => m.ProfilePageModule),

@@ -22,14 +22,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tablinks/profile',
+        redirectTo: '/profile',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tablinks/profile',
+    redirectTo: '/profile',
     pathMatch: 'full'
   }
 ];
