@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/profile']">
+      <ion-icon name="arrow-undo-outline"></ion-icon>
+    </ion-button>
+    <ion-title>deportes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>  
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col> 
+      <ion-card [routerLink]="['/Trabajo']">
+        <img alt="Trabajo" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Basquet</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>   
+  
+      <ion-col>
+        <ion-card [routerLink]="['/Deportes']">
+          <img alt="Deportes" src="./../../assets/fotos/salud.png">
+          <ion-card-header>
+            <ion-card-title>Natacion</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <ion-card [routerLink]="['/Salud']"> 
+          <img alt="Salud" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Futbol</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+        
+      </ion-col>
+      <ion-col>
+        <ion-card [routerLink]="['/Transporte']">
+          <img alt="Transporte" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Remo</ion-card-title>
+          </ion-card-header>
+        </ion-card>    
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <ion-card [routerLink]="['/Educacion']">
+          <img alt="Educacion" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Handball</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card [routerLink]="['/Cultura']">
+          <img alt="Cultura" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Futbol sala</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <ion-card [routerLink]="['/Educacion']">
+          <img alt="Educacion" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Funcional</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card [routerLink]="['/Cultura']">
+          <img alt="Cultura" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Ciclismo</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

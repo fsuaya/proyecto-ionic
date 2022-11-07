@@ -1,0 +1,42 @@
+<ion-header>
+  
+  <ion-toolbar>
+    <ion-button [routerLink]="['/profile']">
+      <ion-icon name="arrow-undo-outline"></ion-icon>
+    </ion-button>  
+    <ion-title>Edit profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>Numero de celular</ion-label>
+      <ion-input placeholder="342 - 5687690"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Dirección de email</ion-label>
+      <ion-input type="email" placeholder="email@domain.com"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>DNI</ion-label>
+      <ion-input type="Numero" placeholder="45324543"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Grupo sanguineo</ion-label>
+      <ion-input type="Numero" placeholder="0+"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label>Patología</ion-label>
+      <ion-input type="nombre" placeholder="Discapacidad neuromotriz"></ion-input>
+    </ion-item>
+  </ion-list>
+<ion-button>
+    Cerrar sesión
+</ion-button>
+
+</ion-content>
