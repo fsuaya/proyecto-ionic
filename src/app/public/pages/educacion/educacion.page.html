@@ -1,6 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Educacion</ion-title>
+    <ion-button [routerLink]="['/profile']">
+    <ion-icon name="arrow-undo-outline"></ion-icon>
+    </ion-button>
+    <ion-title>Social Media</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -11,51 +14,64 @@
   <ion-grid>
     <ion-row class="ion-justify-content-center">
       <ion-col> 
-      <ion-button [routerLink]="['/']">
-        <ion-icon name="briefcase-outline" ></ion-icon>
-        <h6>Inversiones</h6>
-        </ion-button>
-      </ion-col>
+      <ion-card>
+        <img alt="Trabajo" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Finanzas personal</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>   
+  
       <ion-col>
-        <ion-button [routerLink]="['/']">
-          <ion-icon name="american-football-outline"></ion-icon>
-          <h6>Social Media</h6>
-        </ion-button>
+        <ion-card>
+          <img alt="Deportes" src="./../../assets/fotos/salud.png">
+          <ion-card-header>
+            <ion-card-title>Desarrollo Power BI</ion-card-title>
+          </ion-card-header>
+        </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
-  
   <ion-grid>
     <ion-row class="ion-justify-content-center">
       <ion-col>
-        <ion-button [routerLink]="['/']">
-          <ion-icon name="medkit-outline"></ion-icon>
-          <h6>Negociación</h6>
-        </ion-button>
+        <ion-card> 
+          <img alt="Salud" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Business Analytics</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+        
       </ion-col>
       <ion-col>
-        <ion-button [routerLink]="['/']">
-          <ion-icon name="bus-outline"></ion-icon>
-          <h6>Curso Web</h6>
-        </ion-button>    
+        <ion-card>
+          <img alt="Transporte" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Desarrollo Web</ion-card-title>
+          </ion-card-header>
+        </ion-card>    
       </ion-col>
     </ion-row>
   </ion-grid>
-  
   <ion-grid>
     <ion-row class="ion-justify-content-center">
       <ion-col>
-        <ion-button [routerLink]="['/']">
-          <ion-icon name="library-outline"></ion-icon>
-          <h6>Creatividad</h6>
-        </ion-button>
+        <ion-card>
+          <img alt="Educacion" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Blockchain</ion-card-title>
+          </ion-card-header>
+        </ion-card>
       </ion-col>
       <ion-col>
-        <ion-button [routerLink]="['/']">
-          <ion-icon name="earth-outline"></ion-icon>
-          <h6>Deportes</h6>
-        </ion-button>
+        <ion-card>
+          <img alt="Cultura" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>Excel Basico</ion-card-title>
+          </ion-card-header>
+        </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
-  
+    
+
