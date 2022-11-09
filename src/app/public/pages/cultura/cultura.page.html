@@ -1,9 +1,94 @@
 <ion-header>
+
   <ion-toolbar>
+    <ion-button [routerLink]="['/profile']">
+      <ion-icon name="arrow-undo-outline"></ion-icon>
+    </ion-button>
     <ion-title>cultura</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content>  
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col> 
+      <ion-card [routerLink]="['/Trabajo']">
+        <img alt="Trabajo" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>AECOTEC 2022</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>   
+  
+      <ion-col>
+        <ion-card [routerLink]="['/Deportes']">
+          <img alt="Deportes" src="./../../assets/fotos/salud.png">
+          <ion-card-header>
+            <ion-card-title>EXPERENCIA ENDEAVOR</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <ion-card [routerLink]="['/Salud']"> 
+          <img alt="Salud" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>STARTUP WEEKEND</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+        
+      </ion-col>
+      <ion-col>
+        <ion-card [routerLink]="['/Transporte']">
+          <img alt="Transporte" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>TEATRO EL CIRCULO</ion-card-title>
+          </ion-card-header>
+        </ion-card>    
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <ion-card [routerLink]="['/Educacion']">
+          <img alt="Educacion" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>EVENTO 1</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card [routerLink]="['/Cultura']">
+          <img alt="Cultura" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>EVENTO 2</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <ion-card [routerLink]="['/Educacion']">
+          <img alt="Educacion" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>EVENTO 3</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+        <ion-card [routerLink]="['/Cultura']">
+          <img alt="Cultura" src="./../../assets/fotos/salud.png" />
+          <ion-card-header>
+            <ion-card-title>EVENTO 4</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
