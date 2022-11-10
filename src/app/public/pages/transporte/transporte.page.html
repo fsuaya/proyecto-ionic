@@ -1,39 +1,31 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-button [routerLink]="['/profile']">
-      <ion-icon name="arrow-undo-outline"></ion-icon>
-    </ion-button>
-    <ion-title>transporte</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title slot="end">Transporte</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button href="profile"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
   <ion-card>
     <ion-card-header>
-      <ion-card-title>Colectivo</ion-card-title>
+      <ion-card-title>Colectivos</ion-card-title>
     </ion-card-header>
-  
+    <img src="https://www.diariodecuyo.com.ar/export/sites/diariodecuyo/img/2018/04/21/ddc220418-017f02.jpg" />
     <ion-card-content>
-      Conoce los mejores lugares de la ciudad para acceder al transporte publico
+      Viaja cómodo y tranquilo por toda la ciudad
     </ion-card-content>
   </ion-card>
+
   <ion-card>
     <ion-card-header>
       <ion-card-title>Taxis</ion-card-title>
     </ion-card-header>
-  
+    <img src="https://www.mendozapost.com/files/image/43/43945/55f81d7f9963e.jpg" />
     <ion-card-content>
-      Conoce los lugares de la ciudad mas comodo para tomar un taxi
-    </ion-card-content>
-  </ion-card>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>no tengo idea</ion-card-title>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-    </ion-card-header>
-  
-    <ion-card-content>
-      Here's a small text description for the card content. Nothing more, nothing less.
+      Conoce los lugares que más quieras de la ciudad en este taxi adaptado
     </ion-card-content>
   </ion-card>
 </ion-content>

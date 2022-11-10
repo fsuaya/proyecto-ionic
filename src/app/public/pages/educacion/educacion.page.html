@@ -1,17 +1,13 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-button [routerLink]="['/profile']">
-    <ion-icon name="arrow-undo-outline"></ion-icon>
-    </ion-button>
-    <ion-title>Social Media</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title slot="end">Social Media</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button href="profile"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-
-  <ion-searchbar show-cancel-button="focus" placeholder="Show on Focus"></ion-searchbar>
-
-
-  <ion-grid>
+<ion-grid>
     <ion-row class="ion-justify-content-center">
       <ion-col> 
       <ion-card>

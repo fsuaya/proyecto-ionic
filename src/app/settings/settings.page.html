@@ -1,15 +1,18 @@
 <ion-header>
   
-  <ion-toolbar>
-    <ion-button [routerLink]="['/profile']">
-      <ion-icon name="arrow-undo-outline"></ion-icon>
-    </ion-button>  
+  <ion-toolbar color="primary">
     <ion-title>Edit profile</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
+    <ion-item>
+      <ion-label>Nombre</ion-label>
+      <ion-input placeholder="Manuel"></ion-input>
+    </ion-item>
+  
+
     <ion-item>
       <ion-label>Numero de celular</ion-label>
       <ion-input placeholder="342 - 5687690"></ion-input>
@@ -35,8 +38,5 @@
       <ion-input type="nombre" placeholder="Discapacidad neuromotriz"></ion-input>
     </ion-item>
   </ion-list>
-<ion-button>
-    Cerrar sesión
-</ion-button>
 
 </ion-content>

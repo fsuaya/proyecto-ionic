@@ -1,12 +1,13 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-button [routerLink]="['/profile']">
-      <ion-icon name="arrow-undo-outline"></ion-icon>
-    </ion-button>
-    <ion-title>trabajo</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title slot="end">Trabajo</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button href="profile"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
+<ion-content>
 <ion-card>
   <ion-card-header>
     <ion-card-title>Card Title</ion-card-title>
@@ -75,3 +76,4 @@
     </ion-list>
   </ion-card-content>
 </ion-card>
+</ion-content>
